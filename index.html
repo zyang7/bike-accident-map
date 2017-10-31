@@ -16678,7 +16678,8 @@
 		-122.5722556
 	]
 ]
-	function initMap() {
+	function initMap(locations) {
+
 		var map = new google.maps.Map(document.getElementById('map'), {
 		 	zoom: 4,
 			  center: new google.maps.LatLng(39.8283,-98.5795),
@@ -16702,8 +16703,6 @@
 		  })(marker, i));
 		}
 	}
-
-	
   </script>
   
   <script async defer
